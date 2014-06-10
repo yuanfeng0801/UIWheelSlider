@@ -21,6 +21,8 @@
 		715EFEBF1946EBC6007BFA87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715EFEA11946EBC6007BFA87 /* UIKit.framework */; };
 		715EFEC71946EBC6007BFA87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715EFEC51946EBC6007BFA87 /* InfoPlist.strings */; };
 		715EFEC91946EBC6007BFA87 /* UIWheelSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715EFEC81946EBC6007BFA87 /* UIWheelSliderTests.m */; };
+		715EFED41946EC2F007BFA87 /* UIWheelSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 715EFED31946EC2F007BFA87 /* UIWheelSlider.m */; };
+		715EFED61946EC4A007BFA87 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715EFED51946EC4A007BFA87 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		715EFEC41946EBC6007BFA87 /* UIWheelSliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIWheelSliderTests-Info.plist"; sourceTree = "<group>"; };
 		715EFEC61946EBC6007BFA87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		715EFEC81946EBC6007BFA87 /* UIWheelSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWheelSliderTests.m; sourceTree = "<group>"; };
+		715EFED21946EC2F007BFA87 /* UIWheelSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWheelSlider.h; sourceTree = "<group>"; };
+		715EFED31946EC2F007BFA87 /* UIWheelSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWheelSlider.m; sourceTree = "<group>"; };
+		715EFED51946EC4A007BFA87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715EFED61946EC4A007BFA87 /* QuartzCore.framework in Frameworks */,
 				715EFEA01946EBC6007BFA87 /* CoreGraphics.framework in Frameworks */,
 				715EFEA21946EBC6007BFA87 /* UIKit.framework in Frameworks */,
 				715EFE9E1946EBC6007BFA87 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		715EFE9C1946EBC6007BFA87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				715EFED51946EC4A007BFA87 /* QuartzCore.framework */,
 				715EFE9D1946EBC6007BFA87 /* Foundation.framework */,
 				715EFE9F1946EBC6007BFA87 /* CoreGraphics.framework */,
 				715EFEA11946EBC6007BFA87 /* UIKit.framework */,
@@ -112,6 +119,8 @@
 		715EFEA31946EBC6007BFA87 /* UIWheelSlider */ = {
 			isa = PBXGroup;
 			children = (
+				715EFED21946EC2F007BFA87 /* UIWheelSlider.h */,
+				715EFED31946EC2F007BFA87 /* UIWheelSlider.m */,
 				715EFEAC1946EBC6007BFA87 /* AppDelegate.h */,
 				715EFEAD1946EBC6007BFA87 /* AppDelegate.m */,
 				715EFEAF1946EBC6007BFA87 /* Main.storyboard */,
@@ -249,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715EFED41946EC2F007BFA87 /* UIWheelSlider.m in Sources */,
 				715EFEB41946EBC6007BFA87 /* ViewController.m in Sources */,
 				715EFEAE1946EBC6007BFA87 /* AppDelegate.m in Sources */,
 				715EFEAA1946EBC6007BFA87 /* main.m in Sources */,
