@@ -24,6 +24,7 @@
 		715EFED41946EC2F007BFA87 /* UIWheelSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 715EFED31946EC2F007BFA87 /* UIWheelSlider.m */; };
 		715EFED61946EC4A007BFA87 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715EFED51946EC4A007BFA87 /* QuartzCore.framework */; };
 		715EFEDA1946EFB1007BFA87 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 715EFED81946EFB1007BFA87 /* README.md */; };
+		71A262C8194944F900037E24 /* backImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71A262C7194944F900037E24 /* backImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		715EFED31946EC2F007BFA87 /* UIWheelSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWheelSlider.m; sourceTree = "<group>"; };
 		715EFED51946EC4A007BFA87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		715EFED81946EFB1007BFA87 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		71A262C7194944F900037E24 /* backImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		715EFEA31946EBC6007BFA87 /* UIWheelSlider */ = {
 			isa = PBXGroup;
 			children = (
+				71A262C7194944F900037E24 /* backImage.jpg */,
 				715EFED81946EFB1007BFA87 /* README.md */,
 				715EFED21946EC2F007BFA87 /* UIWheelSlider.h */,
 				715EFED31946EC2F007BFA87 /* UIWheelSlider.m */,
@@ -242,6 +245,7 @@
 			files = (
 				715EFEB61946EBC6007BFA87 /* Images.xcassets in Resources */,
 				715EFEA81946EBC6007BFA87 /* InfoPlist.strings in Resources */,
+				71A262C8194944F900037E24 /* backImage.jpg in Resources */,
 				715EFEDA1946EFB1007BFA87 /* README.md in Resources */,
 				715EFEB11946EBC6007BFA87 /* Main.storyboard in Resources */,
 			);
