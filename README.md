@@ -19,7 +19,7 @@ Email: yflscy@gmail.com
 
 This is my first GitHub's repo and also my first opensource code. I'am happy to receive any pull requests.
 
-Thanks for rraywenderlich.
+Thanks for raywenderlich.
 
 Thanks for Fangyun Xiang's help. 
 
